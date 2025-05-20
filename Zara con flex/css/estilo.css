@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(../letras/bebasneue.ttf);
+    
+}
+@font-face {
+    font-family: Vogue;
+    src: url(../letras/vogue.ttf);
+}
+
+@font-face {
+    font-family: BoldFont;
+    src: url(../letras/theboldfont.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    padding-top: 3px;
+    z-index: 0;
+    background-color: white;
+}
+.HeaderArr {
+    margin: 5px 0;
+    display: flex;
+    justify-content: baseline;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    
+}
+
+.CabeceraDer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.CabeceraIzq span {
+    font-family: Vogue;
+    font-size: 3rem;
+}
+
+.CabeceraDer img {
+    width: 40px;
+    height: 40px;
+}
+
+form {
+    width: 85%;
+}
+
+.social {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 13px;
+}
+
+
+form input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    float: left;
+    border: none;
+    font-family: Bebas;
+    width: 90%;
+}
+  
+form button {
+    float: left;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    width: 10%;
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+  }
+  
+form button:hover {
+    background: grey;
+}
+
+.logo img{
+    width: 100px;
+}
+
+
+.social img {
+    height: 40px;
+    width: 40px;
+}
+  
+.cb {
+    clear: both;
+}
+
+.menu {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+nav {
+    color: black;
+    width: 10%;
+}
+
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+    font-family: Bebas;
+}
+
+.menu nav ul li {
+    list-style-type: none;
+    padding: 10px 10px 10px 20px;
+    color: black;
+    position: relative;
+}
+
+.menu nav ul li ul {
+    display: none;
+    z-index: 1;
+}
+
+.menu nav ul li ul li {
+    border-bottom: 1px solid #8d8a8a;
+}
+
+.menu nav ul li:hover ul {
+    display: block;
+}
+
+.menu nav ul li:hover {
+    color: black;
+}
+
+.menu nav ul li ul li:hover {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+main img {
+    width: 100%;
+}
+
+.Fila1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+
+
+.Fila1 article {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.Fila2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+
+.Fila2 article {
+    width: 48%;
+    margin-bottom: 50px;
+}
+
+.Fila3 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Fila3 article {
+    width: 32%;
+    margin-bottom: 50px;
+}
+
+.Fila4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+
+.Fila4 article {
+    width: 24%;
+    margin-bottom: 50px;
+}
+
+.producto {
+    font-family: BoldFont;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.nombre {
+    font-size: 16px;
+    width: 75%;
+}
+
+
+.precio {
+    font-size: 16px;
+    width: 25%;
+    
+}
+
+.tachado {
+    color: lightgrey;
+    text-decoration:line-through;
+    text-align: right;
+    font-family: Bebas;
+
+}
+
+.oferta {
+    color: white;
+    background-color: black;
+    font-family: Bebas;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+}
+
+footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+footer ul, footer li {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+.Final {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-family: Bebas;
+}
+
+.Final div {
+    margin-top: 70px ;
+}
+
+.politica ul li {
+    border-right: 3px solid black;
+}
+
+.politica ul li:last-of-type{
+    border: none;
+}
+
+
+
+
+
